@@ -1,0 +1,30 @@
+[
+  {
+    "title": "HTML",
+    "imageNameKey": "html"
+  },
+  {
+    "title": "CSS",
+    "imageNameKey": "css"
+  },
+  {
+    "title": "JavaScript",
+    "imageNameKey": "javascript"
+  },
+  {
+    "title": "React",
+    "imageNameKey": "react"
+  },
+  {
+    "title": "TypeScript",
+    "imageNameKey": "typescript"
+  },
+  {
+    "title": "Node",
+    "imageNameKey": "node"
+  },
+  {
+    "title": "GraphQL",
+    "imageNameKey": "graphql"
+  }
+]

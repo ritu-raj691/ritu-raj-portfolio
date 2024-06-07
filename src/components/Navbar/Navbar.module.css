@@ -1,0 +1,81 @@
+@import "../../vars.css";
+
+.navbar {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 60px;
+  margin: 0 10%;
+  z-index: 2;
+}
+
+.title {
+  text-decoration: none;
+  font-size: 32px;
+  font-weight: 600;
+  color: var(--color-text);
+}
+
+.menu {
+  display: flex;
+}
+
+.menubtn {
+  display: none;
+}
+
+.menuitems {
+  display: flex;
+  gap: 48px;
+  list-style: none;
+  align-items: center;
+}
+
+.menuitems a {
+  font-size: 16px;
+  color: var(--color-text);
+  text-decoration: none;
+}
+
+@media screen and (max-width: 768px) {
+  .navbar {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .menu {
+    position: absolute;
+    right: 0;
+    flex-direction: column;
+    align-items: flex-end;
+    gap: 12px;
+    z-index: 3;
+  }
+
+  .menubtn {
+    display: block;
+    cursor: pointer;
+  }
+
+  .menuitems {
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    gap: 12px;
+    border-radius: 8px;
+    padding: 24px 32px;
+    background: rgb(25, 55, 109);
+    background: linear-gradient(
+      0deg,
+      rgba(25, 55, 109, 0.2) 0%,
+      rgba(25, 55, 109, 1) 100%
+    );
+    box-shadow: 0 0 4px 0 rgba(0, 0, 0, 0.25);
+  }
+
+  .menuopen {
+    display: flex;
+    z-index: 1;
+  }
+}

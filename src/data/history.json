@@ -1,0 +1,18 @@
+[
+  {
+    "role": "Software Engineer",
+    "organisation": "Infosys Limited",
+    "startDate": "Sept, 2022",
+    "endDate": "Present",
+    "experiences": ["Worked on Google Maps", "Reduced load times by 50%"],
+    "imageNameKey": "infosys"
+  },
+  {
+    "role": "Sr. Software Engineer",
+    "organisation": "Qss Technosoft Pvt. Ltd.",
+    "startDate": "Aug, 2021",
+    "endDate": "Aug, 2022",
+    "experiences": ["Worked on Windows 11", "Designed the control panel"],
+    "imageNameKey": "qss"
+  }
+]
