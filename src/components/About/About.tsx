@@ -20,12 +20,28 @@ const About = () => {
             <div className={styles.aboutItemText}>
               <h2>Frontend Developer</h2>
               <p>
-                I'm a frontend developer with experience in building responsive
-                and optimized applications.
+                I am a passionate Front-End Developer with expertise in HTML,
+                CSS, JavaScript, React.js, and Redux, alongside a strong
+                knowledge of various other front-end technologies.
+              </p>
+              <p>
+                I have honed my skills in creating dynamic and interactive web
+                applications that not only meet but exceed client expectations.
+              </p>
+              <p>
+                In addition to my front-end prowess, I am always eager to
+                explore and understand backend technologies, bridging the gap
+                between frontend and backend to deliver cohesive and robust
+                solutions.
+              </p>
+              <p>
+                Let's connect to discuss how I can bring my unique blend of
+                skills and experience to your next project, driving innovation
+                and achieving remarkable results.
               </p>
             </div>
           </li>
-          <li className={styles.aboutItem}>
+          {/* <li className={styles.aboutItem}>
             <img src={ServerImg} alt="server-icon" />
             <div className={styles.aboutItemText}>
               <h2>Backend Developer</h2>
@@ -34,7 +50,7 @@ const About = () => {
                 and APIs.
               </p>
             </div>
-          </li>
+          </li> */}
         </ul>
       </div>
     </section>

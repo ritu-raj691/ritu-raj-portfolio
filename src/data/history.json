@@ -1,18 +1,25 @@
 [
   {
-    "role": "Software Engineer",
+    "role": "Sr. Associate Consultant",
     "organisation": "Infosys Limited",
-    "startDate": "Sept, 2022",
+    "startDate": "May, 2022",
     "endDate": "Present",
-    "experiences": ["Worked on Google Maps", "Reduced load times by 50%"],
+    "experiences": [
+      "Developed a web portal for managing real partner's partnership.",
+      "Enhanced software performance and scalability.",
+      "Translated wireframes into high-quality code."
+    ],
     "imageNameKey": "infosys"
   },
   {
     "role": "Sr. Software Engineer",
     "organisation": "Qss Technosoft Pvt. Ltd.",
-    "startDate": "Aug, 2021",
-    "endDate": "Aug, 2022",
-    "experiences": ["Worked on Windows 11", "Designed the control panel"],
+    "startDate": "Sep, 2019",
+    "endDate": "Apr, 2022",
+    "experiences": [
+      "Built various dashboards with many functionalities to handle and display the data.",
+      "Created reusable components and fixed bugs to optimize pages."
+    ],
     "imageNameKey": "qss"
   }
 ]

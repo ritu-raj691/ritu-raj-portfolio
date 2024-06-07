@@ -54,10 +54,8 @@
   width: 75px;
 }
 
-.skill p {
-  font-size: 25px;
+.skill h2 {
   font-family: var(--font-roboto);
-  font-weight: 500;
 }
 
 @media screen and (max-width: 768px) {

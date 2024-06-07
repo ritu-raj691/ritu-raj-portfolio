@@ -8,12 +8,23 @@ const Hero = () => {
       <div className={styles.content}>
         <h1 className={styles.title}>Hi, I'm Ritu Raj</h1>
         <p className={styles.description}>
-          I am a FrontEnd developer with 4.9 years of experience using ReactJs.
-          Please reach out to me if you'd like to know more!{" "}
+          Experienced front-end developer with 4.9 years of specializing in
+          JavaScript, React.js, and other modern front-end technologies,
+          dedicated to crafting seamless and efficient user interfaces. Let's
+          connect to explore how I can contribute to your next project.
         </p>
-        <a href="mailto:rituraj691@gmail.com" className={styles.contactBtn}>
-          Contact Me
-        </a>
+        <div className={styles.customButtons}>
+          <a
+            href="https://drive.google.com/file/d/1Xxugr1xQH-VvN6zxL9XxuhgcEiM05BCz/view?usp=sharing"
+            className={styles.customBtn}
+            target="_blank"
+          >
+            Resume
+          </a>
+          <a href="mailto:rituraj691@gmail.com" className={styles.customBtn}>
+            Contact Me
+          </a>
+        </div>
       </div>
       <img src={HeroImg} alt="rituraj.png" className={styles.heroImg} />
       <div className={styles.topBlur}></div>

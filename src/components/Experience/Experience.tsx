@@ -26,7 +26,11 @@ const Experience = () => {
                   <h4>{`${historyItem.startDate} - ${historyItem.endDate}`}</h4>
                   <ul>
                     {historyItem.experiences.map((experience, id) => {
-                      return <li key={id}>{experience}</li>;
+                      return (
+                        <li key={id} className={styles.marginTop4}>
+                          {experience}
+                        </li>
+                      );
                     })}
                   </ul>
                 </div>
