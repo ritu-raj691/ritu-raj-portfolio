@@ -1,7 +1,7 @@
 import React from "react";
 import styles from "./ProjectCard.module.css";
 import { imgArray } from "../../constant";
-import { IProject, IProjectCard } from "../../models/common";
+import { IProjectCard } from "../../models/common";
 
 const ProjectCard = (props: IProjectCard) => {
   const { title, imageKey, description, skills, demo, source } = props?.project;
@@ -10,7 +10,7 @@ const ProjectCard = (props: IProjectCard) => {
     <div className={styles.container}>
       <img
         src={imgArray.filter((item) => item.key === imageKey)[0]?.img ?? ""}
-        alt={`Image of ${title}`}
+        alt={title}
         className={styles.image}
       />
       <h2 className={styles.title}>{title}</h2>
@@ -25,10 +25,15 @@ const ProjectCard = (props: IProjectCard) => {
         })}
       </ul>
       <div className={styles.links}>
-        <a href={demo} className={styles.link} target="_blank">
+        <a href={demo} className={styles.link} target="_blank" rel="noreferrer">
           Demo
         </a>
-        <a href={source} className={styles.link} target="_blank">
+        <a
+          href={source}
+          className={styles.link}
+          target="_blank"
+          rel="noreferrer"
+        >
           Source
         </a>
       </div>

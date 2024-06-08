@@ -23,7 +23,7 @@ const Contact = () => {
                   }
                   alt={item?.imgAlt}
                 />
-                <a href={item?.href} target="_blank">
+                <a href={item?.href} target="_blank" rel="noreferrer">
                   {item?.label ?? ""}
                 </a>
               </li>

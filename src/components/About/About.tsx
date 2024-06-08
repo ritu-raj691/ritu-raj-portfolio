@@ -2,7 +2,7 @@ import React from "react";
 import styles from "./About.module.css";
 import AboutImg from "../../assets/about/aboutImg.avif";
 import CursorImg from "../../assets/about/cursorIcon.png";
-import ServerImg from "../../assets/about/serverIcon.png";
+// import ServerImg from "../../assets/about/serverIcon.png";
 
 const About = () => {
   return (
