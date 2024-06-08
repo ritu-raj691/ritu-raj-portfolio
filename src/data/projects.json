@@ -20,7 +20,7 @@
     "imageKey": "project",
     "description": "This portfolio highlights my expertise in different technologies. Explore my work and learn more about my journey as a developer.",
     "skills": ["Reactjs", "JavaScript", "CSS"],
-    "demo": "https://www.example.com",
+    "demo": "https://portfoliorituraj.netlify.app/",
     "source": "https://github.com/ritu-raj691/ritu-raj-portfolio"
   }
 ]
