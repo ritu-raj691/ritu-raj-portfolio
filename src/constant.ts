@@ -4,8 +4,13 @@ import CSSImg from "./assets/skills/css.png";
 import JavaScriptImg from "./assets/skills/javascript.png";
 import ReactImg from "./assets/skills/react.png";
 import TypeScriptImg from "./assets/skills/typescript.png";
-import NodeImg from "./assets/skills/node.png";
+import NextImg from "./assets/skills/next.png";
 import GraphQLImg from "./assets/skills/graphql.png";
+import NodeImg from "./assets/skills/node.png";
+import ExpressImg from "./assets/skills/express.png";
+import SQLImg from "./assets/skills/sql.png";
+import GitImg from "./assets/skills/git.png";
+import TailwindImg from "./assets/skills/tailwind.png";
 import InfosysImg from "./assets/history/infosys.png";
 import QssImg from "./assets/history/qss.png";
 import ProjectImg from "./assets/projects/project.png";
@@ -42,8 +47,13 @@ export const imgArray = [
   { key: "javascript", img: JavaScriptImg },
   { key: "react", img: ReactImg },
   { key: "typescript", img: TypeScriptImg },
-  { key: "node", img: NodeImg },
+  { key: "next", img: NextImg },
   { key: "graphql", img: GraphQLImg },
+  { key: "node", img: NodeImg },
+  { key: "express", img: ExpressImg },
+  { key: "sql", img: SQLImg },
+  { key: "git", img: GitImg },
+  { key: "tailwind", img: TailwindImg },
   { key: "infosys", img: InfosysImg },
   { key: "qss", img: QssImg },
   { key: "project", img: ProjectImg },
@@ -69,6 +79,6 @@ export const contactArray: IContactArray[] = [
     key: "linkedin",
     label: "LinkedIn",
     imgAlt: "linkedin icon",
-    href: "",
+    href: "https://www.linkedin.com/in/ritu-raj-4316a6132/",
   },
 ];

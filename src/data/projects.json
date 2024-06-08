@@ -1,26 +1,26 @@
 [
   {
-    "title": "Project A",
+    "title": "Quick Advice Generator",
     "imageKey": "project",
-    "description": "This is a project made to learn the latest languages by building an app.",
-    "skills": ["React", "Express", "Node"],
-    "demo": "https://www.example.com",
-    "source": "https://www.github.com"
+    "description": "A sleek and intuitive app designed to provide users with instant, bite-sized advice. This app delivers concise advice at the tap of a button.",
+    "skills": ["Reactjs", "JavaScript", "CSS"],
+    "demo": "https://adviceappgenerator.netlify.app/",
+    "source": "https://github.com/ritu-raj691/advice-app-react"
   },
   {
-    "title": "Project B",
+    "title": "IMDb Clone",
     "imageKey": "project",
-    "description": "This is a project made to learn the latest languages by building an app.",
-    "skills": ["React", "Express", "Node", "Sass"],
-    "demo": "https://www.example.com",
-    "source": "https://www.github.com"
+    "description": "An IMDb app clone utilizing the IMDb Rapid API, allowing users to view trending and top-rated movies. The app also features a search function to find specific movie and see their IMDb ratings.",
+    "skills": ["Next.js", "JavaScript", "Tailwind CSS"],
+    "demo": "https://imdb-rituraj.vercel.app/",
+    "source": "https://github.com/ritu-raj691/imdb"
   },
   {
-    "title": "Project C",
+    "title": "My Portfolio",
     "imageKey": "project",
-    "description": "This is a project made to learn the latest languages by building an app.",
-    "skills": ["React", "Express", "Node"],
+    "description": "This portfolio highlights my expertise in different technologies. Explore my work and learn more about my journey as a developer.",
+    "skills": ["Reactjs", "JavaScript", "CSS"],
     "demo": "https://www.example.com",
-    "source": "https://www.github.com"
+    "source": "https://github.com/ritu-raj691/ritu-raj-portfolio"
   }
 ]

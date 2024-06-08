@@ -60,5 +60,6 @@
 
   .links {
     width: 40%;
+    gap: 12px;
   }
 }

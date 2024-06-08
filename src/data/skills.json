@@ -12,7 +12,7 @@
     "imageNameKey": "javascript"
   },
   {
-    "title": "React",
+    "title": "Reactjs",
     "imageNameKey": "react"
   },
   {
@@ -20,11 +20,31 @@
     "imageNameKey": "typescript"
   },
   {
-    "title": "Node",
-    "imageNameKey": "node"
+    "title": "Next.js",
+    "imageNameKey": "next"
   },
   {
     "title": "GraphQL",
     "imageNameKey": "graphql"
+  },
+  {
+    "title": "Node.js",
+    "imageNameKey": "node"
+  },
+  {
+    "title": "Express.js",
+    "imageNameKey": "express"
+  },
+  {
+    "title": "SQL",
+    "imageNameKey": "sql"
+  },
+  {
+    "title": "Git",
+    "imageNameKey": "git"
+  },
+  {
+    "title": "Tailwind CSS",
+    "imageNameKey": "tailwind"
   }
 ]
