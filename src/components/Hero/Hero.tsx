@@ -15,7 +15,7 @@ const Hero = () => {
         </p>
         <div className={styles.customButtons}>
           <a
-            href="https://drive.google.com/file/d/1Xxugr1xQH-VvN6zxL9XxuhgcEiM05BCz/view?usp=sharing"
+            href="https://drive.google.com/file/d/15rCveaGHvOza7rFCEOSl-R07DwhAcPeu/view?usp=sharing"
             className={styles.customBtn}
             target="_blank"
             rel="noreferrer"
