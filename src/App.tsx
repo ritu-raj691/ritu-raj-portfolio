@@ -1,23 +1,37 @@
-import React from "react";
+import React, { lazy, Suspense } from "react";
 import styles from "./App.module.css";
-import Navbar from "./components/Navbar/Navbar";
-import Hero from "./components/Hero/Hero";
-import About from "./components/About/About";
-import Skills from "./components/Skills/Skills";
-import Experience from "./components/Experience/Experience";
-import Projects from "./components/Projects/Projects";
-import Contact from "./components/Contact/Contact";
+const Navbar = lazy(() => import("./components/Navbar/Navbar"));
+const Hero = lazy(() => import("./components/Hero/Hero"));
+const About = lazy(() => import("./components/About/About"));
+const Skills = lazy(() => import("./components/Skills/Skills"));
+const Experience = lazy(() => import("./components/Experience/Experience"));
+const Projects = lazy(() => import("./components/Projects/Projects"));
+const Contact = lazy(() => import("./components/Contact/Contact"));
 
 function App() {
   return (
     <div className={styles.App}>
-      <Navbar />
-      <Hero />
-      <About />
-      <Experience />
-      <Skills />
-      <Projects />
-      <Contact />
+      <Suspense fallback={<></>}>
+        <Navbar />
+      </Suspense>
+      <Suspense fallback={<></>}>
+        <Hero />
+      </Suspense>
+      <Suspense fallback={<></>}>
+        <About />
+      </Suspense>
+      <Suspense fallback={<></>}>
+        <Experience />
+      </Suspense>
+      <Suspense fallback={<></>}>
+        <Skills />
+      </Suspense>
+      <Suspense fallback={<></>}>
+        <Projects />
+      </Suspense>
+      <Suspense fallback={<></>}>
+        <Contact />
+      </Suspense>
     </div>
   );
 }

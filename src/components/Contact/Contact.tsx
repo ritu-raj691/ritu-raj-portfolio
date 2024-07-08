@@ -1,8 +1,7 @@
 import React from "react";
 import styles from "./Contact.module.css";
-import { imgArray } from "../../constant";
+import { imgArray, contactArray } from "../../constant";
 import { IContactArray } from "../../models/common";
-import { contactArray } from "../../constant";
 
 const Contact = () => {
   return (
