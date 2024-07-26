@@ -15,14 +15,15 @@ const Contact = () => {
           return (
             <React.Fragment key={`Contact_${index + 1}`}>
               <li className={styles.link}>
-                <img
-                  src={
-                    imgArray.filter((imgItem) => imgItem.key === item.key)[0]
-                      .img ?? ""
-                  }
-                  alt={item?.imgAlt}
-                />
                 <a href={item?.href} target="_blank" rel="noreferrer">
+                  <img
+                    src={
+                      imgArray.filter(
+                        (imgItem) => imgItem?.key === item?.key
+                      )[0]?.img ?? ""
+                    }
+                    alt={item?.imgAlt}
+                  />
                   {item?.label ?? ""}
                 </a>
               </li>

@@ -11,7 +11,7 @@ const Projects = () => {
       <div className={styles.projects}>
         {projects.map((project: IProject, id: number) => {
           return (
-            <Suspense fallback={<></>}>
+            <Suspense fallback={<></>} key={id + Date.now()}>
               <ProjectCard key={id} project={project} />
             </Suspense>
           );

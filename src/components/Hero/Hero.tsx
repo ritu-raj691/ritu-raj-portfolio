@@ -1,12 +1,12 @@
 import React from "react";
 import styles from "./Hero.module.css";
-import HeroImg from "../../assets/hero/rituraj.jpeg";
+import HeroImg from "../../assets/hero/rituraj.png";
 
 const Hero = () => {
   return (
     <section className={styles.container}>
       <div className={styles.content}>
-        <h1 className={styles.title}>Hi, I'm Ritu Raj</h1>
+        <div className={styles.title}>Hi, I'm Ritu Raj</div>
         <p className={styles.description}>
           Experienced front-end developer with 4.9 years of specializing in
           JavaScript, React.js, and other modern front-end technologies,
@@ -22,7 +22,7 @@ const Hero = () => {
           >
             Resume
           </a>
-          <a href="mailto:rituraj691@gmail.com" className={styles.customBtn}>
+          <a href="#contact" className={styles.customBtn}>
             Contact Me
           </a>
         </div>

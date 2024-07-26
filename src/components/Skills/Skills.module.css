@@ -46,16 +46,17 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 120px;
-  height: 120px;
+  width: 64px;
+  height: 64px;
 }
 
 .skillImageContainer img {
-  width: 75px;
+  width: 40px;
 }
 
 .skill h2 {
   font-family: var(--font-roboto);
+  font-size: 20px;
 }
 
 @media screen and (max-width: 768px) {
@@ -77,6 +78,6 @@
   }
 
   .skillImageContainer img {
-    width: 60px;
+    width: 40px;
   }
 }

@@ -4,7 +4,15 @@ import { imgArray } from "../../constant";
 import { IProjectCard } from "../../models/common";
 
 const ProjectCard = (props: IProjectCard) => {
-  const { title, imageKey, description, skills, demo, source } = props?.project;
+  const {
+    title,
+    imageKey,
+    description,
+    skills,
+    demo,
+    source,
+    isSourceCodeVisible,
+  } = props?.project;
 
   return (
     <div className={styles.container}>
@@ -28,14 +36,16 @@ const ProjectCard = (props: IProjectCard) => {
         <a href={demo} className={styles.link} target="_blank" rel="noreferrer">
           Demo
         </a>
-        <a
-          href={source}
-          className={styles.link}
-          target="_blank"
-          rel="noreferrer"
-        >
-          Source
-        </a>
+        {isSourceCodeVisible && (
+          <a
+            href={source}
+            className={styles.link}
+            target="_blank"
+            rel="noreferrer"
+          >
+            Source
+          </a>
+        )}
       </div>
     </div>
   );

@@ -25,8 +25,9 @@ const About = () => {
                 knowledge of various other front-end technologies.
               </p>
               <p>
-                I have honed my skills in creating dynamic and interactive web
-                applications that not only meet but exceed client expectations.
+                My passion is to provide well-tested and maintainable code,
+                pixel-perfect user interfaces, and the best user experience
+                using the latest technologies.
               </p>
               <p>
                 In addition to my front-end prowess, I am always eager to

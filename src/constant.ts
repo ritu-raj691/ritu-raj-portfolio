@@ -17,6 +17,7 @@ import ProjectImg from "./assets/projects/project.png";
 import EmailImg from "./assets/contact/emailIcon.png";
 import GitHubImg from "./assets/contact/githubIcon.png";
 import LinkedInImg from "./assets/contact/linkedinIcon.png";
+import PhoneImg from "./assets/contact/phoneIcon.png";
 
 export const NavbarItems: INavbarItems[] = [
   {
@@ -57,12 +58,19 @@ export const imgArray = [
   { key: "infosys", img: InfosysImg },
   { key: "qss", img: QssImg },
   { key: "project", img: ProjectImg },
+  { key: "phone", img: PhoneImg },
   { key: "email", img: EmailImg },
   { key: "github", img: GitHubImg },
   { key: "linkedin", img: LinkedInImg },
 ];
 
 export const contactArray: IContactArray[] = [
+  {
+    key: "phone",
+    label: "Phone",
+    imgAlt: "phone icon",
+    href: "tel:9507636359",
+  },
   {
     key: "email",
     label: "Email",

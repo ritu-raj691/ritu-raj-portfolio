@@ -10,6 +10,7 @@ export interface IProject {
   skills: string[];
   demo: string;
   source: string;
+  isSourceCodeVisible: boolean;
 }
 
 export interface IProjectCard {
