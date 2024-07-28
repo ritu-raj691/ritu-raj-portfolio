@@ -14,8 +14,17 @@
   text-transform: uppercase;
 }
 
+.description {
+  font-size: 20px;
+  margin-top: 8px;
+}
+
+.description a {
+  color: #576cbc;
+}
+
 .projects {
-  margin-top: 37px;
+  margin-top: 32px;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;

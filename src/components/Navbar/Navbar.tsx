@@ -27,7 +27,9 @@ const Navbar = () => {
           {NavbarItems.map((item: INavbarItems, index: number) => {
             return (
               <li key={`navitem_${index + 1}`}>
-                <a href={item?.href}>{item?.label}</a>
+                <a href={item?.href} rel="noreferrer">
+                  {item?.label}
+                </a>
               </li>
             );
           })}

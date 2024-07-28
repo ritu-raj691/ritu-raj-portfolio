@@ -19,6 +19,12 @@ import GitHubImg from "./assets/contact/githubIcon.png";
 import LinkedInImg from "./assets/contact/linkedinIcon.png";
 import PhoneImg from "./assets/contact/phoneIcon.png";
 
+export const resumeLink: string =
+  "https://drive.google.com/file/d/1nbkB7rprngfBWvTWgv6v8assNh492n6C/view?usp=sharing";
+export const linkedInLink: string =
+  "https://www.linkedin.com/in/ritu-raj-4316a6132/";
+export const gitHubLink: string = "https://github.com/ritu-raj691";
+
 export const NavbarItems: INavbarItems[] = [
   {
     label: "About",
@@ -81,12 +87,12 @@ export const contactArray: IContactArray[] = [
     key: "github",
     label: "GitHub",
     imgAlt: "github icon",
-    href: "https://github.com/ritu-raj691",
+    href: gitHubLink,
   },
   {
     key: "linkedin",
     label: "LinkedIn",
     imgAlt: "linkedin icon",
-    href: "https://www.linkedin.com/in/ritu-raj-4316a6132/",
+    href: linkedInLink,
   },
 ];

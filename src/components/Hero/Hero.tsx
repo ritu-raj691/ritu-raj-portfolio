@@ -1,6 +1,7 @@
 import React from "react";
 import styles from "./Hero.module.css";
 import HeroImg from "../../assets/hero/rituraj.png";
+import { resumeLink } from "../../constant";
 
 const Hero = () => {
   return (
@@ -15,14 +16,14 @@ const Hero = () => {
         </p>
         <div className={styles.customButtons}>
           <a
-            href="https://drive.google.com/file/d/1nbkB7rprngfBWvTWgv6v8assNh492n6C/view?usp=sharing"
+            href={resumeLink}
             className={styles.customBtn}
             target="_blank"
             rel="noreferrer"
           >
             Resume
           </a>
-          <a href="#contact" className={styles.customBtn}>
+          <a href="#contact" className={styles.customBtn} rel="noreferrer">
             Contact Me
           </a>
         </div>

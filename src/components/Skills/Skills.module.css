@@ -46,12 +46,12 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 64px;
-  height: 64px;
+  width: 52px;
+  height: 52px;
 }
 
 .skillImageContainer img {
-  width: 40px;
+  width: 32px;
 }
 
 .skill h2 {
